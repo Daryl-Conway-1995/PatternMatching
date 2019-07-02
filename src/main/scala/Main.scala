@@ -1,20 +1,14 @@
 object Main extends App{
-
-  val matchStatementStart = "The input variable is a "
-  val numberRegex = "[0-9]*"
-  def patternMatching(userInput:Any):Unit= userInput match {
-    case _:Int => println(matchStatementStart + "number")
-    case _:Double => println(matchStatementStart + "number")
-    case s:String if s.matches(numberRegex)=> println(matchStatementStart + "number")
-    case _:String => println(matchStatementStart + "string")
-    case _ => println("unknown type")
-  }
-
-  patternMatching(123)
-  patternMatching("123")
-  patternMatching(6.5)
-  patternMatching("abc")
-  patternMatching("abc123")
-  patternMatching("123abc")
-  patternMatching(true)
+  val patternController = new PatternController
+  patternController.matchPattern(123)
+  patternController.matchPattern("123")
+  patternController.matchPattern(6.5)
+  patternController.matchPattern("abc")
+  patternController.matchPattern("abc123")
+  patternController.matchPattern("123abc")
+  patternController.matchPattern(true)
+  patternController.matchPattern("456",456)
+  patternController.matchPattern("abc",456)
+  patternController.matchRegex("[\\d]*".r,"12345")
+  patternController.matchRegex("[A-Z]{3}[0-9]{2}".r,"ABC12")
 }
