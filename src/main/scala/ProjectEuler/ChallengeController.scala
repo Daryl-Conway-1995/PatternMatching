@@ -1,10 +1,10 @@
 package ProjectEuler
 
 object ChallengeController {
-  def challenges1To4(): Unit ={
+  def challenges1To4(): Unit = {
     println("Challenge One: ")
     val challenge = new ChallengeOne
-    challenge.produceResult(0,1000)
+    challenge.produceResult(0, 1000)
 
     println("Challenge Two: ")
     val challenge2 = new ChallengeTwo
@@ -18,9 +18,14 @@ object ChallengeController {
     val challenge4 = new ChallengeFour
     challenge4.produceResult
   }
+
   def challenges5To8(): Unit = {
     println("Challenge Five: ")
     val challenge5 = new ChallengeFive
     challenge5.produceResult(20)
+
+    println("Challenge Six: ")
+    val challenge6 = new ChallengeSix
+    challenge6.produceResult
   }
 }
