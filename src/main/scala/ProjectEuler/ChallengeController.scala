@@ -31,5 +31,9 @@ object ChallengeController {
     println("Challenge Seven: ")
     val challenge7 = new ChallengeSeven
     challenge7.produceResult
+
+    println("Challenge Eight: ")
+    val challenge8 = new ChallengeEight
+    challenge8.produceResult
   }
 }
