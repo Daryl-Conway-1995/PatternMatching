@@ -36,4 +36,22 @@ object ChallengeController {
     val challenge8 = new ChallengeEight
     challenge8.produceResult
   }
+
+  def challenges9To12(): Unit = {
+    println("Challenge Nine: ")
+    val challenge9 = new ChallengeNine
+    challenge9.produceResult(1000)
+//
+//    println("Challenge Ten: ")
+//    val challenge10 = new ChallengeTen
+//    challenge10.produceResult
+//
+//    println("Challenge Eleven: ")
+//    val challenge11 = new ChallengeEleven
+//    challenge11.produceResult
+//
+//    println("Challenge Twelve: ")Twelve
+//    val challenge12 = new Challenge
+//    challenge12.produceResult
+  }
 }
