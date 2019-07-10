@@ -1,5 +1,7 @@
 package ProjectEuler
 
+
+//the task is to find possible pythagoras triangle measurements from a total length.
 class ChallengeNine {
   def produceResult(totalLength: Int): Unit = {
     for (a <- 1 to totalLength / 2)

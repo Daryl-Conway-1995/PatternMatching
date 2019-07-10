@@ -41,11 +41,11 @@ object ChallengeController {
     println("Challenge Nine: ")
     val challenge9 = new ChallengeNine
     challenge9.produceResult(1000)
-//
-//    println("Challenge Ten: ")
-//    val challenge10 = new ChallengeTen
-//    challenge10.produceResult
-//
+
+    println("Challenge Ten: ")
+    val challenge10 = new ChallengeTen
+    challenge10.produceResult(2000000)
+
 //    println("Challenge Eleven: ")
 //    val challenge11 = new ChallengeEleven
 //    challenge11.produceResult
