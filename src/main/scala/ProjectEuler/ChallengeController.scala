@@ -46,12 +46,12 @@ object ChallengeController {
     val challenge10 = new ChallengeTen
     challenge10.produceResult(2000000)
 
-//    println("Challenge Eleven: ")
-//    val challenge11 = new ChallengeEleven
-//    challenge11.produceResult
-//
-//    println("Challenge Twelve: ")Twelve
-//    val challenge12 = new Challenge
-//    challenge12.produceResult
+    println("Challenge Eleven: ")
+    val challenge11 = new ChallengeEleven
+    challenge11.produceResult
+
+    println("Challenge Twelve: ")
+    val challenge12 = new ChallengeTwelve
+    challenge12.produceResult(500)
   }
 }
