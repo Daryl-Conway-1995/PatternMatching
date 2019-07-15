@@ -1,5 +1,5 @@
 import ProjectEuler._
 
 object Main extends App{
- ChallengeController.challenges13To16()
+ ChallengeController.challenges9To12()
 }

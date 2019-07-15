@@ -56,21 +56,21 @@ object ChallengeController {
   }
 
   def challenges13To16(): Unit = {
-//    println("Challenge Thirteen: ")
-//    val challenge13 = new ChallengeThirteen
-//    challenge13.produceResult
+    println("Challenge Thirteen: ")
+    val challenge13 = new ChallengeThirteen
+    challenge13.produceResult
 
     println("Challenge Fourteen: ")
     val challenge14 = new ChallengeFourteen
     challenge14.produceResult(1000000)
 
-//    println("Challenge Fifteen: ")
-//    val challenge15 = new ChallengeFifteen
-//    challenge15.produceResult(2)
-//
-//    println("Challenge Sixteen: ")
-//    val challenge16 = new ChallengeSixteen
-//    challenge16.produceResult(500)
+    println("Challenge Fifteen: ")
+    val challenge15 = new ChallengeFifteen
+    challenge15.produceResult(2)
+
+    println("Challenge Sixteen: ")
+    val challenge16 = new ChallengeSixteen
+    challenge16.produceResult(1000)
   }
 
 }
