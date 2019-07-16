@@ -77,10 +77,10 @@ object ChallengeController {
     println("Challenge Seventeen: ")
     val challenge17 = new ChallengeSeventeen
     challenge17.produceResult
-//
-//    println("Challenge Eighteen: ")
-//    val challenge18 = new ChallengeEighteen
-//    challenge18.produceResult(1000000)
+
+    println("Challenge Eighteen: ")
+    val challenge18 = new ChallengeEighteen
+    challenge18.produceResult
 //
 //    println("Challenge Nineteen: ")
 //    val challenge19 = new ChallengeNineteen
