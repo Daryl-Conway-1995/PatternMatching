@@ -81,14 +81,32 @@ object ChallengeController {
     println("Challenge Eighteen: ")
     val challenge18 = new ChallengeEighteen
     challenge18.produceResult
+
+    println("Challenge Nineteen: ")
+    val challenge19 = new ChallengeNineteen
+    challenge19.produceResult
+
+    println("Challenge Twenty: ")
+    val challenge20 = new ChallengeTwenty
+    challenge20.produceResult(100)
+  }
+
+  def challenges21To24(): Unit = {
+    println("Challenge Twentyone: ")
+    val challenge21 = new ChallengeTwentyone
+    challenge21.produceResult
 //
-//    println("Challenge Nineteen: ")
-//    val challenge19 = new ChallengeNineteen
-//    challenge19.produceResult(2)
+//    println("Challenge Twentytwo: ")
+//    val challenge22 = new ChallengeTwentytwo
+//    challenge22.produceResult
 //
-//    println("Challenge Twenty: ")
-//    val challenge20 = new ChallengeTwenty
-//    challenge20.produceResult(1000)
+//    println("Challenge Twentythree: ")
+//    val challenge23 = new ChallengeTwentythree
+//    challenge23.produceResult
+//
+//    println("Challenge Twentyfour: ")
+//    val challenge24 = new ChallengeTwentyfour
+//    challenge24.produceResult
   }
 
 }
